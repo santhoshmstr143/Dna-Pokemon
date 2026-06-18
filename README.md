@@ -1,4 +1,4 @@
-# Pokémon Database Management System 🎮
+# Pokémon Database Management System 
 
 **Phase 4 Database Project - Complete Implementation**
 
@@ -52,7 +52,7 @@ DNA/
 
 ---
 
-## 💻 Python Application Features
+##  Python Application Features
 
 ### **Command-Line Interface (CLI)**
 
@@ -147,24 +147,6 @@ python main_app.py
 - 18 Pokemon Types, 50+ Moves, 20+ Items
 - 3 Tournaments (Indigo Plateau, Silver Conference, etc.)
 - 100+ Battle records with outcomes
-
----
-
-## 🎬 Video Demonstration Guide
-
-Two comprehensive documentation files included:
-
-1. **VIDEO_RECORDING_GUIDE.md**
-   - Complete 5-minute script with timing
-   - Narration for each operation
-   - BEFORE→EXECUTE→AFTER demonstration pattern
-   - Pre-recording setup checklist
-
-2. **MYSQL_WORKBENCH_QUERIES.md**
-   - All SQL queries for MySQL Workbench verification
-   - BEFORE/AFTER queries for each WRITE operation
-   - Direct MySQL equivalents of Python operations
-   - Quick copy-paste reference section
 
 ---
 
@@ -311,7 +293,7 @@ except pymysql.Error as e:
 
 ---
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 This project demonstrates:
 -  **Database normalization** to Third Normal Form
