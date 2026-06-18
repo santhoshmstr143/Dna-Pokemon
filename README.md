@@ -280,26 +280,11 @@ except pymysql.Error as e:
 
 ---
 
-##  Learning Outcomes
-
-This project demonstrates:
--  **Database normalization** to Third Normal Form
--  **Complex multi-table queries** with multiple JOINs
--  **Python-MySQL integration** using PyMySQL
--  **SQL injection prevention** via parameterized queries
--  **Transaction management** for data integrity
--  **CLI application design** with user-friendly interface
--  **Relational database design** for real-world domain
--  **Foreign key constraints** and referential integrity
-
----
 
 ##  Support & Documentation
 
-- **Schema Reference:** See `schema2.sql` for complete table definitions
+- **Schema Reference:** See `schema.sql` for complete table definitions
 - **Sample Data:** See `populate.sql` for all INSERT statements
-- **Video Guide:** See `VIDEO_RECORDING_GUIDE.md` for demonstration script
-- **MySQL Queries:** See `MYSQL_WORKBENCH_QUERIES.md` for verification queries
 
 ---
 
@@ -316,25 +301,6 @@ Normalization:       3NF (Strict)
 Database Engine:     InnoDB
 Character Set:       utf8mb4
 ```
-
----
-
-##  Testing & Verification
-
-All operations have been manually tested and verified:
-
- **Database Persistence:** Changes made in Python app immediately visible in MySQL Workbench  
- **Referential Integrity:** Foreign key constraints working correctly (CASCADE deletes)  
- **Transaction Safety:** Rollback on errors prevents partial updates  
- **Data Validation:** Input validation and error messages for invalid data  
- **Query Correctness:** All queries return accurate results matching schema design  
-
----
-
-##  License & Academic Use
-
-**Academic Project** - Created for Database Management Systems Course (Phase 4)  
-Free to reference for educational purposes.
 
 ---
 
