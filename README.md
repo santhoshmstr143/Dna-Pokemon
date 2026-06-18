@@ -16,19 +16,6 @@ A comprehensive database management system for a **Pokémon Battle League** univ
 
 ---
 
-##  Project Structure
-
-```
-DNA/
-├── schema2.sql                    # Complete 3NF database schema (27 tables)
-├── populate.sql                   # 500+ records of sample data
-├── main_app.py                    # Python CLI application (13 operations)
-├── VIDEO_RECORDING_GUIDE.md       # Step-by-step video demo script
-├── MYSQL_WORKBENCH_QUERIES.md     # All SQL queries for verification
-└── README.md                      # This file
-```
-
----
 
 ##  Database Schema Highlights
 
